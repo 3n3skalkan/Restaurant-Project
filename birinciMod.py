@@ -18,7 +18,7 @@ class Semaphore:
             self.signal_count += 1 
             self.condition.notify()
 
-txtDosya = "C:/Users/enesk/Desktop/pyProject/yazdır.txt"
+txtDosya = "path txt file"
 
 musteriOncelik = queue.PriorityQueue() #gelen müşterileri ilk olarak bu kuyruk içerisine atacağız ardından öncelik değerine göre sırasıyla alacağız
 garsonSiparisSira = queue.Queue() #bu kuyruk garsonların sipariş alacağı masaları bir kuyruğa koyar ve buradan sırasıyla her thread bir tane işlemi yapar
