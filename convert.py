@@ -2,7 +2,7 @@ from PyQt5 import uic
 import os
 
 # UI dosyalarının bulunduğu klasör yolu
-ui_klasoru = "C:/Users/enesk/Desktop/pyProject/frame"
+ui_klasoru = "path .py files"
 
 # UI dosyalarının listesini al
 ui_dosyalari = [dosya for dosya in os.listdir(ui_klasoru) if dosya.endswith(".ui")]
